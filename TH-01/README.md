@@ -41,21 +41,21 @@ MSSV: 23110303
 
 - **Hai họ vi điều khiển trong nhà kính là gì ?**: ESP32 và STM32 (hoặc PIC/ATmega).
 - **Cảm biến nhiệt độ độ ẩm phía ESP32 tên gì ?**: DHT11
-- **DATA_RH nối GPIO nào ?**: nối với GPIO 23 của ESP32 
+- **DATA_RH nối GPIO nào ?**: nối với GPIO 14 của ESP32 
 - **Cảm biến này dùng kiểu giao tiếp nào ?**: Dùng chuẩn giao tiếp 1-Wire
-- **SDA nối GPIO nào ?**: SDA được nối với GPIO 21 của ESP32
-- **SCL nối GPIO nào ?**: SCL được nối với GPIO 22 của ESP32
-- **MOTOR1_INT1 nối GPIO nào ?**: được nối với chân GPIO 32 của ESP32
-- **MOTOR2_INT2 nối GPIO nào ?**: được nối với chân GPIO 33 của ESP32
+- **SDA nối GPIO nào ?**: SDA được nối với GPIO 33 của ESP32
+- **SCL nối GPIO nào ?**: SCL được nối với GPIO 32 của ESP32
+- **MOTOR1_INT1 nối GPIO nào ?**: được nối với chân GPIO 5 của ESP32
+- **MOTOR2_INT2 nối GPIO nào ?**: được nối với chân GPIO 17 của ESP32
 - **Truy vết từ hai GPIO tới động cơ. Vì sao không nối tải trực tiếp vào GPIO ?**: Chân GPIO của ESP32 chỉ chịu được dòng max 20-40mA, trong khi động cơ tiêu thụ dòng điện hoạt động và dòng khởi động lớn hơn rất nhiều (vài trăm mA -> Ampe). Nối trực tiếp sẽ gây tụt áp, cháy hỏng chân vi điều khiển.
-- **Đường tín hiệu LED_R (điều khiển đèn LED đỏ) nối với chân GPIO nào của ESP32 (U1) ?**: nối vào chân GPIO 25 của ESP32
-- **Đường tín hiệu LED_G (điều khiển đèn LED xanh) nối với chân GPIO nào của ESP32 (U1) ?**: nối vào chân GPIO 26 của ESP32
+- **Đường tín hiệu LED_R (điều khiển đèn LED đỏ) nối với chân GPIO nào của ESP32 (U1) ?**: nối vào chân GPIO 26 của ESP32
+- **Đường tín hiệu LED_G (điều khiển đèn LED xanh) nối với chân GPIO nào của ESP32 (U1) ?**: nối vào chân GPIO 27 của ESP32
 - **LED đỏ D3 và LED xanh D16 được điều khiển trực tiếp từ GPIO hay qua linh kiện nào? Truy vết một nhánh.**: Các LED báo không được điều khiển trực tiếp qua GPIO mà phải đi qua Transitor kích đệm. Truy nhánh: GPIO25 -> chân Base của Transitor MMBT3904. Transitor mở: LED_RED D3 -> Transitor -> GND
-- **Đường tín hiệu MOTOR2_INT1 nối với chân GPIO số mấy của ESP32 ?**: được nối với chân GPIO 18 của ESP32
-- **Đường tín hiệu MOTOR2_INT2 nối với chân GPIO số mấy của ESP32 ?**: được nối với chân GPIO 19 của ESP32
+- **Đường tín hiệu MOTOR2_INT1 nối với chân GPIO số mấy của ESP32 ?**: được nối với chân GPIO 23 của ESP32
+- **Đường tín hiệu MOTOR2_INT2 nối với chân GPIO số mấy của ESP32 ?**: được nối với chân GPIO 22 của ESP32
 - **MOTOR2 đi qua IC nào và ra đầu nối nào? Vì sao không nhầm với MOTOR1 ?**: MOTOR2 đi qua IC lái công suất 44950LITR rồi mới xuất ra cọc đấu nối dành riêng cho MOTOR2. Không được nhầm với MOTOR1 vì MOTOR1 sử dụng cặp GPIO 32/33 đi qua IC công suất U2, có đường tín hiệu & vị trí khác nhau trên mạch nguyên lý.
-- **Phân biệt LED báo đỏ/xanh với hai nhánh ARRAY_LED. ARRAY_LED3/4 nối GPIO nào và đi tới nhánh nào ?**: LED_R và LED_G là LED đơn hiển thị trạng thái, công suất nhỏ. ARRAY_LED3 & ARRAY_LED4 là các dải LED công suất lớn hơn, phải đi qua IC mạch đệm công suất N531. Kết nối: ARRAY_LED3 nối vào GPIO 14; ARRAY_LED4 nối vào GPIO 13
-- **Theo nhà kính này, một số đo DHT11 được đọc ở chân nào? Nếu bổ sung điều khiển MOTOR1 qua MQTT thì lệnh phải đi tới hai GPIO nào, qua mạch nào ?**: Số đo DHT11 được vi điều khiển đọc qua GPIO 23. Nếu bổ sung điều khiển qua MQTT: Lệnh MQTT từ Broker được ESP32 xử lý, xuất tín hiệu ra GPIO 32 và GPIO 33, đi qua IC cầu H 44950LITR để điều khiển đóng/mở/đảo chiều động cơ 1.
+- **Phân biệt LED báo đỏ/xanh với hai nhánh ARRAY_LED. ARRAY_LED3/4 nối GPIO nào và đi tới nhánh nào ?**: LED_R và LED_G là LED đơn hiển thị trạng thái, công suất nhỏ. ARRAY_LED3 & ARRAY_LED4 là các dải LED công suất lớn hơn, phải đi qua IC mạch đệm công suất N531. Kết nối: ARRAY_LED3 nối vào GPIO 13; ARRAY_LED4 nối vào GPIO 12
+- **Theo nhà kính này, một số đo DHT11 được đọc ở chân nào? Nếu bổ sung điều khiển MOTOR1 qua MQTT thì lệnh phải đi tới hai GPIO nào, qua mạch nào ?**: Số đo DHT11 được vi điều khiển đọc qua GPIO 14. Nếu bổ sung điều khiển qua MQTT: Lệnh MQTT từ Broker được ESP32 xử lý, xuất tín hiệu ra GPIO 5 và GPIO 17, đi qua IC cầu H 44950LITR để điều khiển đóng/mở/đảo chiều động cơ 1.
 
 ## 5. Phần kiểm chứng để lại cho các bài sau
 
