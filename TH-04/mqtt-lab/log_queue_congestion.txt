@@ -1,0 +1,92 @@
+16:33:43.713 > ets Jul 29 2019 12:21:46
+16:33:43.713 > 
+16:33:43.713 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+16:33:43.719 > configsip: 0, SPIWP:0xee
+16:33:43.721 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+16:33:43.727 > mode:DIO, clock div:2
+16:33:43.730 > load:0x3fff0030,len:1184
+16:33:43.733 > load:0x40078000,len:13232
+16:33:43.735 > load:0x40080400,len:3028
+16:33:43.735 > entry 0x400805e4
+16:33:45.708 > [SAFE] beat=4 t=1663 state=DUNG mqtt=0 queue=0 dropped=0 sent=0 gpsChars=261
+16:33:47.108 > [MQTT] dang ket noi...
+16:33:47.108 > [MQTT] ESP32 IP=192.168.133.36 -> broker 192.168.133.17:1883
+16:33:47.158 > [MQTT] da ket noi
+16:33:47.366 > [MQTT] pub seq=1
+16:33:47.709 > [SAFE] beat=8 t=3663 state=CHAY mqtt=1 queue=0 dropped=0 sent=1 gpsChars=585
+16:33:49.709 > [SAFE] beat=12 t=5663 state=CHAY mqtt=1 queue=1 dropped=0 sent=1 gpsChars=909
+16:33:51.709 > [SAFE] beat=16 t=7663 state=CHAY mqtt=1 queue=2 dropped=0 sent=1 gpsChars=1233
+16:33:53.709 > [SAFE] beat=20 t=9663 state=CHAY mqtt=1 queue=3 dropped=0 sent=1 gpsChars=1615
+16:33:55.374 > [MQTT] pub seq=2
+16:33:55.709 > [SAFE] beat=24 t=11663 state=CHAY mqtt=1 queue=3 dropped=0 sent=2 gpsChars=2029
+16:33:57.709 > [SAFE] beat=28 t=13663 state=CHAY mqtt=1 queue=4 dropped=0 sent=2 gpsChars=2401
+16:33:59.709 > [SAFE] beat=32 t=15663 state=CHAY mqtt=1 queue=5 dropped=0 sent=2 gpsChars=2741
+16:34:01.709 > [SAFE] beat=36 t=17663 state=CHAY mqtt=1 queue=6 dropped=0 sent=2 gpsChars=3065
+16:34:03.382 > [MQTT] pub seq=3
+16:34:03.709 > [SAFE] beat=40 t=19663 state=CHAY mqtt=1 queue=6 dropped=0 sent=3 gpsChars=3389
+16:34:05.709 > [SAFE] beat=44 t=21663 state=CHAY mqtt=1 queue=7 dropped=0 sent=3 gpsChars=3721
+16:34:07.709 > [SAFE] beat=48 t=23663 state=CHAY mqtt=1 queue=8 dropped=0 sent=3 gpsChars=4077
+16:34:09.709 > [SAFE] beat=52 t=25663 state=CHAY mqtt=1 queue=9 dropped=0 sent=3 gpsChars=4433
+16:34:11.390 > [MQTT] pub seq=4
+16:34:11.709 > [SAFE] beat=56 t=27663 state=CHAY mqtt=1 queue=9 dropped=0 sent=4 gpsChars=4789
+16:34:13.709 > [SAFE] beat=60 t=29663 state=CHAY mqtt=1 queue=10 dropped=0 sent=4 gpsChars=5145
+16:34:15.709 > [SAFE] beat=64 t=31663 state=CHAY mqtt=1 queue=10 dropped=1 sent=4 gpsChars=5477
+16:34:17.709 > [SAFE] beat=68 t=33663 state=CHAY mqtt=1 queue=10 dropped=2 sent=4 gpsChars=5801
+16:34:19.397 > [MQTT] pub seq=8
+16:34:19.709 > [SAFE] beat=72 t=35663 state=CHAY mqtt=1 queue=9 dropped=3 sent=5 gpsChars=6125
+16:34:21.709 > [SAFE] beat=76 t=37663 state=CHAY mqtt=1 queue=10 dropped=3 sent=5 gpsChars=6449
+16:34:23.709 > [SAFE] beat=80 t=39663 state=CHAY mqtt=1 queue=10 dropped=4 sent=5 gpsChars=6781
+16:34:25.708 > [SAFE] beat=84 t=41663 state=CHAY mqtt=1 queue=10 dropped=5 sent=5 gpsChars=7113
+16:34:27.406 > [MQTT] pub seq=12
+16:34:27.708 > [SAFE] beat=88 t=43663 state=CHAY mqtt=1 queue=9 dropped=6 sent=6 gpsChars=7453
+16:34:29.709 > [SAFE] beat=92 t=45663 state=CHAY mqtt=1 queue=10 dropped=6 sent=6 gpsChars=7777
+16:34:31.709 > [SAFE] beat=96 t=47663 state=CHAY mqtt=1 queue=10 dropped=7 sent=6 gpsChars=8109
+16:34:33.709 > [SAFE] beat=100 t=49663 state=CHAY mqtt=1 queue=10 dropped=8 sent=6 gpsChars=8433
+16:34:35.415 > [MQTT] pub seq=16
+16:34:35.709 > [SAFE] beat=104 t=51663 state=CHAY mqtt=1 queue=9 dropped=9 sent=7 gpsChars=8757
+16:34:37.708 > [SAFE] beat=108 t=53663 state=CHAY mqtt=1 queue=10 dropped=9 sent=7 gpsChars=9081
+16:34:39.709 > [SAFE] beat=112 t=55663 state=CHAY mqtt=1 queue=10 dropped=10 sent=7 gpsChars=9405
+16:34:41.709 > [SAFE] beat=116 t=57663 state=CHAY mqtt=1 queue=10 dropped=11 sent=7 gpsChars=9729
+16:34:43.421 > [MQTT] pub seq=20
+16:34:43.708 > [SAFE] beat=120 t=59663 state=CHAY mqtt=1 queue=9 dropped=12 sent=8 gpsChars=10053
+16:34:45.708 > [SAFE] beat=124 t=61663 state=CHAY mqtt=1 queue=10 dropped=12 sent=8 gpsChars=10385
+16:34:47.708 > [SAFE] beat=128 t=63663 state=CHAY mqtt=1 queue=10 dropped=13 sent=8 gpsChars=10709
+16:34:49.709 > [SAFE] beat=132 t=65663 state=CHAY mqtt=1 queue=10 dropped=14 sent=8 gpsChars=11033
+16:34:51.430 > [MQTT] pub seq=24
+16:34:51.709 > [SAFE] beat=136 t=67663 state=CHAY mqtt=1 queue=9 dropped=15 sent=9 gpsChars=11357
+16:34:53.709 > [SAFE] beat=140 t=69663 state=CHAY mqtt=1 queue=10 dropped=15 sent=9 gpsChars=11681
+16:34:55.709 > [SAFE] beat=144 t=71663 state=CHAY mqtt=1 queue=10 dropped=16 sent=9 gpsChars=12013
+16:34:57.709 > [SAFE] beat=148 t=73663 state=CHAY mqtt=1 queue=10 dropped=17 sent=9 gpsChars=12353
+16:34:59.438 > [MQTT] pub seq=28
+16:34:59.709 > [SAFE] beat=152 t=75663 state=CHAY mqtt=1 queue=9 dropped=18 sent=10 gpsChars=12693
+16:35:01.709 > [SAFE] beat=156 t=77663 state=CHAY mqtt=1 queue=10 dropped=18 sent=10 gpsChars=13017
+16:35:03.709 > [SAFE] beat=160 t=79663 state=CHAY mqtt=1 queue=10 dropped=19 sent=10 gpsChars=13341
+16:35:05.708 > [SAFE] beat=164 t=81663 state=CHAY mqtt=1 queue=10 dropped=20 sent=10 gpsChars=13747
+16:35:07.445 > [MQTT] pub seq=32
+16:35:07.709 > [SAFE] beat=168 t=83663 state=CHAY mqtt=1 queue=9 dropped=21 sent=11 gpsChars=14203
+16:35:09.709 > [SAFE] beat=172 t=85663 state=CHAY mqtt=1 queue=10 dropped=21 sent=11 gpsChars=14617
+16:35:11.709 > [SAFE] beat=176 t=87663 state=CHAY mqtt=1 queue=10 dropped=22 sent=11 gpsChars=14989
+16:35:13.709 > [SAFE] beat=180 t=89663 state=CHAY mqtt=1 queue=10 dropped=23 sent=11 gpsChars=15353
+16:35:15.454 > [MQTT] pub seq=36
+16:35:15.708 > [SAFE] beat=184 t=91663 state=CHAY mqtt=1 queue=9 dropped=24 sent=12 gpsChars=15709
+16:35:17.709 > [SAFE] beat=188 t=93663 state=CHAY mqtt=1 queue=10 dropped=24 sent=12 gpsChars=16049
+16:35:19.709 > [SAFE] beat=192 t=95663 state=CHAY mqtt=1 queue=10 dropped=25 sent=12 gpsChars=16373
+16:35:21.709 > [SAFE] beat=196 t=97663 state=CHAY mqtt=1 queue=10 dropped=26 sent=12 gpsChars=16713
+16:35:23.462 > [MQTT] pub seq=40
+16:35:23.708 > [SAFE] beat=200 t=99663 state=CHAY mqtt=1 queue=9 dropped=27 sent=13 gpsChars=17053
+16:35:25.709 > [SAFE] beat=204 t=101663 state=CHAY mqtt=1 queue=10 dropped=27 sent=13 gpsChars=17385
+16:35:27.708 > [SAFE] beat=208 t=103663 state=CHAY mqtt=1 queue=10 dropped=28 sent=13 gpsChars=17709
+16:35:29.709 > [SAFE] beat=212 t=105663 state=CHAY mqtt=1 queue=10 dropped=29 sent=13 gpsChars=18033
+16:35:31.470 > [MQTT] pub seq=44
+16:35:31.709 > [SAFE] beat=216 t=107663 state=CHAY mqtt=1 queue=9 dropped=30 sent=14 gpsChars=18365
+16:35:33.709 > [SAFE] beat=220 t=109663 state=CHAY mqtt=1 queue=10 dropped=30 sent=14 gpsChars=18689
+16:35:35.709 > [SAFE] beat=224 t=111663 state=CHAY mqtt=1 queue=10 dropped=31 sent=14 gpsChars=19013
+16:35:37.709 > [SAFE] beat=228 t=113663 state=CHAY mqtt=1 queue=10 dropped=32 sent=14 gpsChars=19337
+16:35:39.478 > [MQTT] pub seq=48
+16:35:39.709 > [SAFE] beat=232 t=115663 state=CHAY mqtt=1 queue=9 dropped=33 sent=15 gpsChars=19669
+16:35:41.709 > [SAFE] beat=236 t=117663 state=CHAY mqtt=1 queue=10 dropped=33 sent=15 gpsChars=20009
+16:35:43.709 > [SAFE] beat=240 t=119663 state=CHAY mqtt=1 queue=10 dropped=34 sent=15 gpsChars=20341
+16:35:45.708 > [SAFE] beat=244 t=121663 state=CHAY mqtt=1 queue=10 dropped=35 sent=15 gpsChars=20681
+16:35:47.486 > [MQTT] pub seq=52
+16:35:47.708 > [SAFE] beat=248 t=123663 state=CHAY mqtt=1 queue=9 dropped=36 sent=16 gpsChars=21021
+16:35:49.709 > [SAFE] beat=252 t=125663 state=CHAY mqtt=1 queue=10 dropped=36 sent=16 gpsChars=21361

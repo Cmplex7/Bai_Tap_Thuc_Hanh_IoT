@@ -1,0 +1,7 @@
+16:04:44.720 > [MQTT] pub seq=376
+16:04:46.210 > [SAFE] beat=1508 t=753655 state=CHAY mqtt=1 queue=0 dropped=7 sent=369 gpsChars=139947
+16:04:46.722 > [MQTT] pub seq=377
+16:04:48.210 > [SAFE] beat=1512 t=755655 state=CHAY mqtt=1 queue=0 dropped=7 sent=370 gpsChars=140296
+16:04:48.724 > [MQTT] pub seq=378
+16:04:50.210 > [SAFE] beat=1516 t=757655 state=CHAY mqtt=1 queue=0 dropped=7 sent=371 gpsChars=140620
+16:04:50.725 > [MQTT] pub seq=379
